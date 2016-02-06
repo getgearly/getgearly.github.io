@@ -9,7 +9,7 @@ html,body {
 
 body {
   padding:3em 15px;
-  background-color:#3F3424;
+  background-color:#F2B2A4;
   display:table;
   font-family: 'Lato', sans-serif;
 }
@@ -117,7 +117,7 @@ form input[type="submit"] {
   letter-spacing:.2em;
   padding: 12px 0 14px;
   border:0;
-  background-color:#20190F;
+  background-color:#5D2142;
   color:#fff;
   font-weight:500;
   border-radius: 0 0 6px 6px;
@@ -127,7 +127,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  color: #000;
+  color: #fff;
 }
 
 input:focus {
