@@ -6,7 +6,6 @@
   <head>
     <meta charset="utf-8">
     <title>Gearly</title>
-    <meta name="description" content="">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name=viewport>
     <meta name="description" content="Gearly is coming soon. Please join our mailing list to receive important updates.">
     <meta name="keywords" content="">
@@ -14,8 +13,23 @@
 
     <meta name="google-site-verification" content="Hm8PZ3U4rTjLHLH5lG-bzt5TU4BkxjJlU0vsbotrLkc" />
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
@@ -41,7 +55,7 @@
     <![endif]-->
 
     <div class="wrapper">
-      <img src="images/phone.png" class="phone animated bounceInLeft" />
+      <img src="images/Gearly_iPhone_Silver.png" class="phone animated bounceInLeft" width='325' />
 
       <form name="MailchimpSubscriptionForm" ng-controller="MailchimpSubscriptionCtrl" ng-class="{success: mailchimp.result === 'success'}">
         <div ng-hide="mailchimp.result === 'success'" class="form-container">
@@ -51,7 +65,7 @@
           <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='58a62cc131'">
 
           <h1 class='animated bounceInDown'>Gearly</h1>
-          <p class='tagline animated bounceInDown'>Join the wait list below</p>
+          <p class='tagline1 animated bounceInDown'>Rent. List. Repeat.</p>
 
           <input class="form-control" type="email" name="email" ng-model="mailchimp.email" placeholder="Enter your email address" required>
 
@@ -67,7 +81,7 @@
         </div>
       </form>
       <div class='bottom-bar'>
-        <p>&copy;2016 <a href='http://erictherobot.com'>@erictherobot</a></p>
+        <p>&copy;2017 <a href='http://erictherobot.com'>@erictherobot</a></p>
       </div>
     </div>
 

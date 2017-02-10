@@ -9,18 +9,18 @@ html,body {
 
 body {
   padding:3em 15px;
-  background-color:#8D66B0;
+  background-color:#4D038E;
   display:table;
   font-family: 'Lato', sans-serif;
 }
 
 a {
-  color: #CE361D;
+  color: #C1ACD7!important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CE361D;
+  color: #C1ACD7;
   text-decoration: underline;
 }
 
@@ -41,9 +41,17 @@ h2 {
   font-weight: 100;
 }
 
-p.tagline {
+p.tagline1 {
   color: #fff;
-  font-size: 36px;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+p.tagline2 {
+  color: #fff;
+  font-size: 22px;
   line-height: 1.2;
   margin-bottom: 20px;
   font-weight: 100;
@@ -75,7 +83,7 @@ p.error {
   right: 0;
   text-align: center;
   font-size: 14px;
-  color: #fff;
+  color: #C1ACD7;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
 }
