@@ -1,4 +1,4 @@
-Coming Soon
+Gearly Landing Page
 ========================
 
-[Get on the list...](http://gear.ly)
+[Get on the list...](https://getgearly.com)
