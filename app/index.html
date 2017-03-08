@@ -64,7 +64,7 @@
     <![endif]-->
 
     <div class="wrapper">
-      <img src="images/Gearly_iPhone_Silver.png" class="phone animated bounceInLeft" width='325' />
+      <img src="images/Gearly_iPhone_Silver.png" class="phone animated fadeInLeft" width='325' />
 
       <form name="MailchimpSubscriptionForm" ng-controller="MailchimpSubscriptionCtrl" ng-class="{success: mailchimp.result === 'success'}">
         <div ng-hide="mailchimp.result === 'success'" class="form-container">
@@ -73,16 +73,19 @@
           <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='a3ebf276a280d2f7e5336afe1'">
           <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='58a62cc131'">
 
-          <h1 class='animated bounceInDown'>Gearly</h1>
-          <p class='tagline1 animated bounceInDown'>Rent. List. Repeat.</p>
+          <h1 class='animated fadeInDown'>Gearly</h1>
+          <p class='tagline1 animated fadeInDown'>Rent. List. Repeat.</p>
 
           <input class="form-control" type="email" name="email" ng-model="mailchimp.email" placeholder="Enter your email address" required>
 
-          <input class="btn btn-lg" ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" type="submit" value="SUBSCRIBE">
+          <input class="btn btn-lg" ng-disabled="MailchimpSubscriptionForm.$invalid" ng-click="addSubscription(mailchimp)" type="submit" value="JOIN THE WAIT LIST">
+
+          <!-- <p class='video animated fadeInDown tagline1 text-center'>Learn more</p> -->
 
           <div ng-show="mailchimp.result === 'error'" ng-cloak>
             <p ng-bind-html="mailchimp.errorMessage" class="error"></p>
           </div>
+
         </div>
 
         <div ng-show="mailchimp.result === 'success'" class="result-message" ng-cloak>
@@ -129,5 +132,7 @@
     <script src="scripts/filters.js"></script>
     <script src="scripts/directives.js"></script>
     <!-- endbuild -->
+
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58c024261e0a9f46"></script>
 </body>
 </html>
